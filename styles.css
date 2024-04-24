@@ -1,0 +1,331 @@
+.flex-container {
+  display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    justify-content:flex-start;
+width:auto;
+gap:550px;
+font-size: 14px;
+padding-left: 100px;
+  }
+
+  
+  
+.flex-container-black {
+  display: flex;
+  background-color: black;
+  flex-direction: row; 
+  width: 1500px;
+  margin:auto ;
+  flex-flow: row;
+   gap: 250px;
+  height: 300px;
+padding-left: 100px;
+
+}
+
+.left {
+  display: flex;
+height : 200px;
+width: 200px;
+background-color: rgb(0, 255, 55);
+}
+
+
+.image {
+  background-color: gray;
+flex-grow: 0.25;
+ 
+ 
+align-self: center;
+padding: 10px;
+/*margin-top: 20%;*/
+color: white;
+height : 200px;
+width: 200px;
+ 
+ text-align: center;
+ 
+padding-top: 50px;
+ 
+padding-bottom: 0px;
+ 
+
+}
+  
+
+
+
+  .flex-container > div {
+    background-color: black;
+   
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 15px;
+  }
+  .flex-container-top{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width:300px;
+  color: white;
+  font-size: 48px bold;
+  
+  
+  
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 2px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-middle {
+ 
+  flex-direction: column;
+  background-color: black;
+  width:320px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 2px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-bottom {
+  display: flex;
+  /*flex-direction: column;*/
+  background-color:blue;
+  width:50px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 0px;
+  text-align: center;
+  /*line-height: 75px;*/
+  font-size: 30px;
+}
+
+.image {
+  background-color: darkgrey;
+  width: 100px;
+  height: 100px;
+}
+
+.flex-container-white {
+  /* We first create a flex layout context */
+  display: flex;
+  /*margin: auto;*/
+  justify-content: center;
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  gap:20px;
+  /* Then we define how is distributed the remaining space */
+ 
+ 
+  padding: 0;
+ 
+  list-style: none;
+}
+.flex-container-white-noborder {
+  /* We first create a flex layout context */
+  display: flex;
+  justify-content: center;
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  gap:30px;
+  /* Then we define how is distributed the remaining space */
+  
+  
+  padding: 0;
+ 
+  list-style: none;
+}
+.flex-item {
+ 
+ /* margin: auto;*/
+  padding: 0px;
+  width: 125px;
+  height:90px;
+  margin-top: 1px;
+  line-height: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid blue;
+ border-radius: 8px;
+  border-color: cornflowerblue;
+}
+.flex-item-noborder {
+  /*margin: auto;*/
+ 
+  padding: 0px;
+  width: 125px;
+  height:90px;
+  margin-top: 0px;
+   
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align:center;
+
+}
+
+
+.flex-container-legenda{
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content:flex-start;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item-legenda {
+ 
+ flex-direction: row wrap;
+  padding: 1px;
+  width: 125px;
+  height:90px;
+  margin-top: 1px;
+  
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  }
+
+
+
+
+flex-container-legenda{
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content:flex-start;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item-legenda-gray {
+ 
+ 
+  padding: 1px;
+  width: 125px;
+  height:90px;
+  margin-top: 1px;
+  /*line-height: 150px;*/
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  }
+
+  .flex-container-gray{
+    /* We first create a flex layout context */
+    display: flex;
+     
+    justify-content: flex-start;
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;*/
+     flex-wrap: wrap;
+     
+    flex-flow: row wrap;
+    /*gap:20px;*/
+    /* Then we define how is distributed the remaining space */
+   background-color: #e5e7eb;
+ margin-top: 0%;
+    list-style: none;
+    height: 200px;
+  }
+   
+  .footer{
+    display: flex;
+    background-color:white;
+    flex-direction: row; 
+    width: 800px;
+    margin:0px;
+    margin-left: 10px;
+  align-content:center;
+    flex-flow: row;
+    /*justify-content: left;*/
+    /*height: 20px;*/
+    margin: auto;
+    /*gap:60px;
+    padding:30px;*/
+ 
+  }
+  
+  
+   
+
+    .example {
+      padding-top: 60px;
+    margin-top: 100px;
+      margin-left: 0%;
+      text-indent: 20%;
+      background-color: blue;
+      height : 100px;
+      width: 800px;
+    font-size: 20px;
+    font-weight: bold;
+      color: white;
+    }
+
+    .footer-right {
+     
+      text-indent: 20%;
+      background-color: blue;
+    height : auto;
+    width: 800px;
+  
+    color: white;
+   
+    
+   
+    }
