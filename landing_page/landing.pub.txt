@@ -1,0 +1,1 @@
+﻿ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGLV+W4ENmqqvKbC5Ip9vHzeEsOtUThjOevSedrPQn+c s-miranda1@hotmail.com
